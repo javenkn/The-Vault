@@ -2,7 +2,7 @@
 module.exports = function() {
   var vaultValue = null;
   return {
-    //setValue function sets the value in the vault
+    //setValue function sets the value in the vault to the vaultValue
     setValue: function(key, value){
       vaultValue = value;
     },
